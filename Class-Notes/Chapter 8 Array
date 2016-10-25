@@ -1,1 +1,6 @@
+First one is x[0]
+
+array + link list ---> best efficiency (Data Structure Course)
+
+Compiler will not check array for you. (There is no dynamic check in C --> Ada, C++ will check it)
 
