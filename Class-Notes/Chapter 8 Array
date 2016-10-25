@@ -12,3 +12,36 @@ Components that have no initial value in an array are set as 0
 Designated Initializers
 int a[15] = {[2] = 29, [9] = 7, [14] = 48};
 
+1 variable has 2 attributes
+---> Content & address
+
+***stdbool (digit seen program)
+
+***sizeof
+
+Multidimensional arrays
+e.g. int m[5][9]; (int x[row][column];)
+it has 5 rows and 9 columns
+
+C stores arrays in row-major order. E.g. |row0|_|row1|_|row2|
+
+int x[3][5] = {(1,0,1,0,1),
+               (0,1,0,0,1),
+               (1,1,1,0,0)}
+               
+or
+
+int x[3][5] = {1,0,1,0,1,
+               0,1,0,0,1,
+               1,1,1,0,0}
+
+***constant arrays
+
+***program
+
+***srand
+
+Variable-length arrays (only in C99)
+e.g. int n;
+     int a[n];
+     
