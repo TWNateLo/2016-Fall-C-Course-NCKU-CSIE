@@ -7,3 +7,8 @@ array + link list ---> best efficiency (Data Structure Course)
 Compiler will not check array for you. (There is no dynamic check in C --> Ada, C++ will check it)
 ---> Notice the boundary!!!
 
+Components that have no initial value in an array are set as 0
+
+Designated Initializers
+int a[15] = {[2] = 29, [9] = 7, [14] = 48};
+
